@@ -24,4 +24,9 @@ https://solana-faucet-go.vercel.app
 
 Open http://localhost:8081, connect Phantom (Devnet).
 
+## Deployed Backend
+Hosted on Render: https://solana-faucet-go.onrender.com
+
+
+
    
