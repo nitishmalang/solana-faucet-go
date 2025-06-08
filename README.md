@@ -15,7 +15,7 @@ A web-based Solana Devnet faucet for requesting 1 SOL on Devnet.
 - [Node.js](https://nodejs.org/) (for `http-server`)
 - [Phantom Wallet](https://phantom.app/) (set to Devnet)
 
-### Backend
+## Backend
 1. Clone the repo:
  
    `git clone https://github.com/nitishmalang/solana-faucet-go.git`
@@ -57,13 +57,12 @@ Testing
 
 Open `http://localhost:8081` or `https://solana-faucet-go.vercel.app/`.
 
-Connect Phantom Wallet (Devnet).
+### Connect Phantom Wallet (Devnet).
 
 Request 1 SOL. Check Phantom for +1 SOL.
 
 If airdrop fails (429 error), use a new Devnet wallet or QuickNode RPC:
 Update main.go:
-go
 
-solanaClient := client.NewClient("https://your-quicknode-devnet-endpoint")
+`solanaClient := client.NewClient("https://your-quicknode-devnet-endpoint")`
 
