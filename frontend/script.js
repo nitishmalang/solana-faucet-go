@@ -27,7 +27,7 @@ requestSolBtn.addEventListener('click', async () => {
     }
     try {
         statusText.textContent = 'Requesting 1 SOL...';
-        const response = await fetch('http://localhost:8082/airdrop', {
+        const response = await fetch('https://solana-faucet-go.onrender.com/airdrop', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ wallet_address: walletPublicKey })
