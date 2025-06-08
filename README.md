@@ -1,4 +1,4 @@
-# Solana Token Faucet with Go Backend
+# Solana Token Faucet 
 A web-based Solana Devnet faucet for requesting 1 SOL on Devnet.
 
 ## Live Demo
